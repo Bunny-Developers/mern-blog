@@ -1,0 +1,43 @@
+h1 {
+  color: rgb(32, 1, 61);
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 0 20px;
+  backdrop-filter: blur(10px);
+  margin: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0 40px;
+}
+.navList:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+
+
+}
+
+.navItem {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: rgb(32, 1, 61);
+}
+
+.navItem a:hover {
+  text-decoration: underline;
+}

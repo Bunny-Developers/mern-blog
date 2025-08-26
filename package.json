@@ -1,0 +1,15 @@
+{
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hillary Okoth",
+  "license": "ISC",
+  "description": "A simple blog website to assist new developers in their learning journey for Programming Languages",
+  "dependencies": {
+    "@mui/icons-material": "^7.3.1"
+  }
+}
