@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 2rem 1rem;
+}
+
+.content {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.title {
+  font-size: 8rem !important;
+  font-weight: 900 !important;
+  color: #1976d2;
+  margin-bottom: 1rem !important;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+  line-height: 1;
+}
+
+.subtitle {
+  font-weight: 700 !important;
+  color: #2d3748;
+  margin-bottom: 1.5rem !important;
+  font-size: 2rem !important;
+}
+
+.description {
+  color: #4a5568;
+  margin-bottom: 2.5rem !important;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 400px;
+  margin: 0 auto 2.5rem auto !important;
+}
+
+.button {
+  padding: 12px 32px !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  box-shadow: 0 4px 14px rgba(25, 118, 210, 0.4) !important;
+  transition: all 0.3s ease !important;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(25, 118, 210, 0.6) !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 6rem !important;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem !important;
+  }
+  
+  .content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 4rem !important;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem !important;
+  }
+  
+  .description {
+    font-size: 1rem !important;
+  }
+  
+  .button {
+    padding: 10px 24px !important;
+    font-size: 1rem !important;
+  }
+}

@@ -9,6 +9,7 @@ import CoursePage from './pages/CoursePage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
 import AdminPage from './pages/AdminPage.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx' // Import the new component
 
 const theme = createTheme({
   palette: {
@@ -23,7 +24,6 @@ const theme = createTheme({
 })
 
 function App() {
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -35,6 +35,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/admin/*" element={<AdminPage />} />
+        <Route path="*" element={<NotFoundPage />} /> {/* Catch-all route */}
       </Routes>
       <Footer />
     </ThemeProvider>
