@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogList from '../components/blog/BlogList';
+import '../components/modules/home.modules.css'
 
 const HomePage = () => {
   // Mock data for blog posts
@@ -22,10 +23,12 @@ const HomePage = () => {
   ];
 
   return (
-    <div>
-      <h1>Welcome to CodeMaster</h1>
+    <div className='body'>
+      <div className='welcome-t'>
+        <h1>Welcome to CodeMaster</h1>
       <p>Your one-stop destination for programming courses and tutorials.</p>
       <h2>Latest Blog Posts</h2>
+      </div>
       <BlogList posts={mockPosts} />
     </div>
   );

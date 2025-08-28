@@ -8,8 +8,9 @@ import BlogPage from './pages/BlogPage.jsx'
 import CoursePage from './pages/CoursePage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
-import AdminPage from './pages/AdminPage.jsx'
+// import AdminPage from './pages/AdminPage.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx' // Import the new component
+import './index.css'
 
 const theme = createTheme({
   palette: {
@@ -32,12 +33,12 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/courses" element={<CoursePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/admin/*" element={<AdminPage />} />
-        <Route path="*" element={<NotFoundPage />} /> {/* Catch-all route */}
+        <Route path="/login-register" element={<LoginPage />} />
+       {/* <Route path="/admin/*" element={<AdminPage />} /> */}
+        <Route path="*" element={<NotFoundPage />} />{/* Catch-all route */}
       </Routes>
       <Footer />
+      {/* <AdminPage /> */}
     </ThemeProvider>
   );
 }
