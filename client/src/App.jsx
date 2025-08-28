@@ -7,7 +7,6 @@ import HomePage from './pages/HomePage.jsx'
 import BlogPage from './pages/BlogPage.jsx'
 import CoursePage from './pages/CoursePage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
-import RegisterPage from './pages/RegisterPage.jsx'
 // import AdminPage from './pages/AdminPage.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx' // Import the new component
 import './index.css'
