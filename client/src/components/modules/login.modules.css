@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #081b29;
-}
 .wrapper {
   position: relative;
   width: 750px;
@@ -22,6 +9,7 @@ body {
   box-shadow: 0 0 25px #0ef;
   overflow: hidden;
   border-radius: 15px;
+  margin: auto;
 }
 .wrapper .form-box {
   position: absolute;
